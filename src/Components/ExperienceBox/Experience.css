@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,600;1,6..12,700&display=swap');
+
+.experience{
+    display:flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.experience p{
+    font-family:"nunito",sans-serif ;
+}

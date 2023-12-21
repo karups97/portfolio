@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,600;1,6..12,700&display=swap');
+
+.projectcontainer{
+    display:flex;
+    flex-direction:column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;
+    align-items:center;
+}
+.projectcontainer h1{
+    
+    padding-top: 70px;
+    padding-bottom: 15px;
+
+
+}
+.projectcontainer p{
+    padding-bottom: 15px;
+}
+.projectcontainer-projects {
+    display: flex;
+    /* width:22vw; */
+    margin-top: 15px;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+}

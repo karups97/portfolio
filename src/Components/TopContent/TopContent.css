@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,600;1,6..12,700&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+.topcontent{
+    color:white;
+
+}
+.topcontent-container{
+    position: absolute;
+    top: 300px;
+    right:150px
+}
+.topcontent-container p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+.topcontent-container a button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border-radius: 2px;
+    outline: none;
+
+}
+.topcontent-container h1{
+    font-size: 50px;
+    font-family:"nunito" ,sans-serif;
+    /* color: black; */
+}
+.topcontent-downloadbutton{
+    color:white;
+    background-color:yellowgreen ;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family:"nunito" ,sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.topcontent-downloadbutton:hover{
+color: rgb(162, 240, 7);
+background-color: white;
+font-weight: 600;
+}
+.topcontent-workbutton{
+   color: white;
+   border: 1px solid white !important;
+   background-color: transparent;
+   font-family:"nunito" ,sans-serif;
+   font-weight: 500;
+   
+   cursor: pointer;
+}
+.topcontent-workbutton:hover{
+    color: rgb(17, 16, 16);
+    background-color: rgb(248, 14, 14);
+    font-weight: 600;
+    }

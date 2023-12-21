@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,600;1,6..12,700&display=swap');
+
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:200px 0;
+}
+.skillcontainer-text{
+    color:white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.skillcontainer-text h2{
+    font-size: 30px;
+}
+.skillcontainer-image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.skillcontainer-image img{
+    width:600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skillcontainer-skillset h5{
+    font-family:"Nunito",sans-serif ;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top:10px ;
+
+}
+.skillcontainer-slider .MuiLinearProgress-colorPrimary{
+    /* background-color: rgb(161, 8, 8); */
+}
+.skillcontainer-slider div .MuiLinearProgress-barColorPrimary {
+    background-color: yellowgreen;
+}

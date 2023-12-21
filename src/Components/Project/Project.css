@@ -1,0 +1,24 @@
+.project img{
+    width: 350px;
+    height:179px;
+}
+.project{
+    margin: 15px;
+    width:350px;
+    height:179px;
+    transition: transform 100ms ease-in ;
+}
+.project:hover{
+    color:white;
+    background-color: yellowgreen;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.project-content{
+    padding: 10px;
+
+}

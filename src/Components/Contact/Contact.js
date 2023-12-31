@@ -42,6 +42,10 @@ const Contact = () => {
             </a>
         </div>
     </div>
+    <div className="c-right">
+      <p>&copy;All rights reserved this website
+      </p>
+    </div>
    </Element>
   )
 }
